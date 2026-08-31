@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Proyectos — Nombre Apellido</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <a href="index.html">
+            <img class="home" src="imagenes/luckycat.gif" alt="logo"/>
+        </a>
+
+        <nav>
+            <a href="sobremi.html">SOBRE MÍ</a>
+            <a href="proyectos.html">PROYECTOS</a>
+            <a href="contacto.html">CONTACTO</a>
+        </nav>
+
+    </header>
+
+
+    <!-- CONTENIDO -->
+
+    <main class="page">
+
+
+        <h2>
+            proyectos <br>
+            universitarios
+        </h2>
+
+
+        <!-- PROYECTOS -->
+
+        <section class="project-grid">
+
+
+            <!-- PROYECTO 1 -->
+
+            <article class="project">
+
+                <img 
+                    src="imagenes/p1-portada.png"
+                    alt="Proyecto 1: Objeto gráfico para el Jardín Botánico Nacional"
+                    class="project-cover"
+                    data-images="imagenes/p1-1.png,imagenes/p1-2.png,imagenes/p1-3.png"
+                >
+
+                <div class="project-info">
+
+                    <span>01 / TALLER DE CIUDAD LEGIBLE</span>
+
+                    <p>
+                        Objeto gráfico para el Jardín Botánico Nacional
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROYECTO 2 -->
+
+            <article class="project">
+
+                <img 
+                    src="imagenes/p2-portada.png"
+                    alt="Visualización gráfica sobre la doca chilena"
+                    class="project-cover"
+                    data-images="imagenes/p2-1.png,imagenes/p2-2.png,imagenes/p2-3.png"
+                >
+
+                <div class="project-info">
+
+                    <span>02 / TALLER DE LA OCASIÓN EDITORIAL</span>
+
+                    <p>
+                        Visualización gráfica sobre la doca chilena
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROYECTO 3 -->
+
+            <article class="project">
+
+                <img 
+                    src="imagenes/p3-portada.png"
+                    alt="Edición y visualización gráfica de libro seleccionado"
+                    class="project-cover"
+                    data-images="imagenes/p3-1.png,imagenes/p3-2.png,imagenes/p3-3.png"
+                >
+
+                <div class="project-info">
+
+                    <span>03 / TALLER DE LA OCASIÓN EDITORIAL</span>
+
+                    <p>
+                        Edición y visualización gráfica de libro seleccionado
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROYECTO 4 -->
+
+            <article class="project">
+
+                <img 
+                    src="imagenes/p4-portada.png"
+                    alt="Objeto gráfico para el Museo de Historia Natural de Valparaíso"
+                    class="project-cover"
+                    data-images="imagenes/p4-1.png,imagenes/p4-2.png"
+                >
+
+                <div class="project-info">
+
+                    <span>04 / TALLER DE CIUDAD LEGIBLE</span>
+
+                    <p>
+                        Objeto gráfico para el Museo de Historia Natural de Valparaíso
+                    </p>
+
+                </div>
+
+            </article>
+
+
+        </section>
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <!-- MÁS PROYECTOS -->
+
+        <h2>
+            más <br>
+            proyectos
+        </h2>
+
+
+        <section class="project-grid">
+
+
+            <article class="project">
+
+                <img 
+                    src="imagenes/p5-1.png"
+                    alt="Proyecto personal 1"
+                    class="project-cover"
+                    data-images="imagenes/p5-1.png,imagenes/p5-2.png"
+                >
+
+                <div class="project-info">
+
+                    <span>05 / KISD - INTERNATIONAL WORKSHOP</span>
+
+                    <p>
+                        Edición 'Nomadic Workspace'
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <article class="project">
+
+                <img 
+                    src="imagenes/proyecto2.jpg"
+                    alt="Proyecto personal 2"
+                >
+
+                <div class="project-info">
+
+                    <span>02 / PROYECTO PERSONAL</span>
+
+                    <p>
+                        Visualización gráfica sobre la doca chilena
+                    </p>
+
+                </div>
+
+            </article>
+
+
+        </section>
+
+
+
+
+        <!-- POP-UP -->
+
+        <div class="modal" id="project-modal">
+
+            <button class="modal-close" aria-label="Cerrar">
+                &times;
+            </button>
+
+            <button class="modal-prev" aria-label="Imagen anterior">
+                &#8592;
+            </button>
+
+            <img 
+                class="modal-image"
+                src=""
+                alt="Imagen del proyecto"
+            >
+
+            <button class="modal-next" aria-label="Imagen siguiente">
+                &#8594;
+            </button>
+
+        </div>
+
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>portafolio 2026</p>
+
+        <img 
+            src="imagenes/fish.gif" 
+            alt="Imagen decorativa footer"
+        >
+
+        <p>amanda garviso de nordenflycht</p>
+
+    </footer>
+
+
+
+
+
+    <!-- JAVASCRIPT DEL POP-UP -->
+
+    <script>
+
+        const modal = document.getElementById("project-modal");
+
+        const modalImage = document.querySelector(".modal-image");
+
+        const closeButton = document.querySelector(".modal-close");
+
+        const prevButton = document.querySelector(".modal-prev");
+
+        const nextButton = document.querySelector(".modal-next");
+
+        const projectImages = document.querySelectorAll(".project-cover");
+
+
+        let images = [];
+
+        let currentImage = 0;
+
+
+        /* ABRIR POP-UP */
+
+        projectImages.forEach(project => {
+
+            project.addEventListener("click", () => {
+
+                images = project.dataset.images.split(",");
+
+                currentImage = 0;
+
+                modalImage.src = images[currentImage];
+
+                modal.classList.add("active");
+
+            });
+
+        });
+
+
+        /* SIGUIENTE IMAGEN */
+
+        nextButton.addEventListener("click", () => {
+
+            currentImage++;
+
+            if (currentImage >= images.length) {
+                currentImage = 0;
+            }
+
+            modalImage.src = images[currentImage];
+
+        });
+
+
+        /* IMAGEN ANTERIOR */
+
+        prevButton.addEventListener("click", () => {
+
+            currentImage--;
+
+            if (currentImage < 0) {
+                currentImage = images.length - 1;
+            }
+
+            modalImage.src = images[currentImage];
+
+        });
+
+
+        /* CERRAR POP-UP */
+
+        closeButton.addEventListener("click", () => {
+
+            modal.classList.remove("active");
+
+        });
+
+
+        /* CERRAR AL HACER CLICK FUERA DE LA IMAGEN */
+
+        modal.addEventListener("click", (event) => {
+
+            if (event.target === modal) {
+
+                modal.classList.remove("active");
+
+            }
+
+        });
+
+    </script>
+
+
+</body>
+
+</html>
